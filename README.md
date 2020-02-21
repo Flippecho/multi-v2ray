@@ -1,3 +1,63 @@
+## V2ray 
+
+* 安装curl
+
+```
+apt-get update -y && apt-get install curl -y
+```
+
+* 开启锐速
+
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+
+* 安装V2ray(tcp,443)
+
+```
+source <(curl -sL https://multi.netlify.com/v2ray.sh) --zh
+```
+
+* 节点
+
+```
+vmess://eyJhZGQiOiI1Mi4xODMuNjQuMTg2IiwiYWlkIjoiMTYiLCJob3N0IjoiIiwiaWQiOiJlMTc0Mjc5NC0zMjI1LTExZWEtYjVhZS0wMDBkM2FmZGYzYzciLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiVVMiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxMy43Ni4yNTUuMTI5IiwiYWlkIjoiMTYiLCJob3N0IjoiIiwiaWQiOiJjODJjNjM0MC01NDRmLTExZWEtOGJiMi0wMDBkM2FhMDZjMWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiU0ciLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxNjguNjMuMTU0LjQxIiwiYWlkIjoiMTYiLCJob3N0IjoiIiwiaWQiOiI2ODg3NTY2Ni0zMjIxLTExZWEtOTMzYy0wMDBkM2E4MjM2NDAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiSEsiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+```
+
+
+
+* 订阅
+
+```
+dm1lc3M6Ly9leUpoWkdRaU9pSTFNaTR4T0RNdU5qUXVNVGcySWl3aVlXbGtJam9pTVRZaUxDSm9iM04wSWpvaUlpd2lhV1FpT2lKbE1UYzBNamM1TkMwek1qSTFMVEV4WldFdFlqVmhaUzB3TURCa00yRm1aR1l6WXpjaUxDSnVaWFFpT2lKMFkzQWlMQ0p3WVhSb0lqb2lJaXdpY0c5eWRDSTZJalEwTXlJc0luQnpJam9pVlZNaUxDSjBiSE1pT2lJaUxDSjBlWEJsSWpvaWJtOXVaU0lzSW5ZaU9pSXlJbjA9CnZtZXNzOi8vZXlKaFpHUWlPaUl4TXk0M05pNHlOVFV1TVRJNUlpd2lZV2xrSWpvaU1UWWlMQ0pvYjNOMElqb2lJaXdpYVdRaU9pSmpPREpqTmpNME1DMDFORFJtTFRFeFpXRXRPR0ppTWkwd01EQmtNMkZoTURaak1XVWlMQ0p1WlhRaU9pSjBZM0FpTENKd1lYUm9Jam9pSWl3aWNHOXlkQ0k2SWpRME15SXNJbkJ6SWpvaVUwY2lMQ0owYkhNaU9pSWlMQ0owZVhCbElqb2libTl1WlNJc0luWWlPaUl5SW4wPQp2bWVzczovL2V5SmhaR1FpT2lJeE5qZ3VOak11TVRVMExqUXhJaXdpWVdsa0lqb2lNVFlpTENKb2IzTjBJam9pSWl3aWFXUWlPaUkyT0RnM05UWTJOaTB6TWpJeExURXhaV0V0T1RNell5MHdNREJrTTJFNE1qTTJOREFpTENKdVpYUWlPaUowWTNBaUxDSndZWFJvSWpvaUlpd2ljRzl5ZENJNklqUTBNeUlzSW5Ceklqb2lTRXNpTENKMGJITWlPaUlpTENKMGVYQmxJam9pYm05dVpTSXNJbllpT2lJeUluMD0
+```
+
+## V2ray 
+
+* 安装curl
+
+```
+apt-get update -y && apt-get install curl -y
+```
+
+* 开启锐速
+
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+
+* 安装V2ray(tcp,443)
+
+```
+source <(curl -sL https://multi.netlify.com/v2ray.sh) --zh
+```
+
+
+
+
+
 # multi-v2ray
 V2ray多用户管理脚本，向导式管理[新增|删除|修改]传输协议，享受V2ray的乐趣~  
 ![](https://img.shields.io/pypi/v/v2ray-util.svg) 
